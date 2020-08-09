@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      -dev:
+---
+spring:
+  profiles: dev
+  application: 
+    name: microservicecloud-config-sfx-dev
+---
+spring:
+  profiles: test
+  application: microservicecloud-config-sfx-test
+    name: microservicecloud-config-sfx-test
